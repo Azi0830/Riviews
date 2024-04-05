@@ -1,0 +1,80 @@
+/*head */
+.nav {
+  width: 100%;
+  height: 800px;
+}
+/*head end*/
+
+/*check*/
+
+.check {
+  width: 60%;
+  margin: auto;
+  height: 128px;
+  text-align: center;
+}
+.check .k {
+  display: flex;
+  justify-content: space-evenly;
+}
+/*check end*/
+
+/*features*/
+
+.features {
+  width: 80%;
+  margin: auto;
+  height: 950px;
+  background-color: #fafbff;
+  padding-top: 120px;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+}
+.features .talent_2 {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  gap: 30px;
+}
+.features .talent_2 .find {
+  flex: 1;
+  padding: 50px;
+}
+.features .talent_2 .find h1 {
+  width: 300px;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 42.54px;
+  line-height: 51.48px;
+}
+.features .talent_2 .find button {
+  background-color: black;
+  width: 142px;
+  height: 49px;
+  padding: 15px, 25px, 15px, 25px;
+  border-radius: 9px;
+  color: #fff;
+  cursor: pointer;
+}
+.features .talent_2 .talent {
+  flex: 1;
+  height: 160px;
+  padding: 50px;
+  background-color: #ffff;
+  border-bottom: 5px solid #41f5c0;
+  border-radius: 10px;
+}
+.features .talent_2 .talent .img {
+  width: 40px;
+  height: 40px;
+  background-color: #a3f6dd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.features .talent_2 .talent p {
+  width: 250px;
+}
+/*features end*/
