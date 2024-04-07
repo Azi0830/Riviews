@@ -1,5 +1,4 @@
 import { Component } from "react";
-// import "./style.css";
 
 class Check extends Component {
   render() {
