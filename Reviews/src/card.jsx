@@ -2,7 +2,7 @@
 
 const Card = (props) => {
   return (
-    <div className="job">
+    <div className={`job ${props.color}`}>
       <img src={props.img} alt="Graphic Design" />
       <h2>{props.title}</h2>
       <p>{props.jobs}</p>

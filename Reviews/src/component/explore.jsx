@@ -17,6 +17,7 @@ function Explore() {
             img="/Group 24 (2).png"
             title="Graphic Design"
             jobs="1k Jobs Available"
+            color="color"
           />
           <Card
             img="/Group 26.png"
@@ -27,6 +28,7 @@ function Explore() {
             img="/Group 28.png"
             title="UX Designer"
             jobs="7k Jobs Available"
+            color="color"
           />
         </div>
         <div className="jobs">
@@ -39,6 +41,7 @@ function Explore() {
             img="/Group 34.png"
             title="Digital Marketing"
             jobs="2k Jobs Available"
+            color="color"
           />
           <Card img="/Group 37.png" title="SEO" jobs="1.5k Jobs Available" />
         </div>
@@ -58,5 +61,4 @@ function Explore() {
     </div>
   );
 }
-//cardni randlarini qanday alohida qilamiz?
 export default Explore;
