@@ -31,6 +31,7 @@ input {
   width: 100%;
   /* height: 100vh; */
   margin-bottom: 130px;
+  overflow: hidden;
 }
 .nav .border {
   border-bottom: 1px solid black;
@@ -90,14 +91,15 @@ input {
   position: relative;
 }
 .nav .riview .image .color img {
-  width: 797.71px;
-  height: 745.36px;
+  width: 397.71px;
+  height: 345.36px;
   position: absolute;
   top: 12.64px;
-  left: 591.79px;
+  /* left: 591.79px; */
   gap: 0px;
   opacity: 0px;
 }
+
 .nav .riview .image .color .color_2 {
   width: 659px;
   height: 659px;
@@ -106,10 +108,14 @@ input {
     rgba(65, 245, 192, 0.1) 12.9%,
     rgba(65, 245, 192, 0) 74.92%
   );
+  /* background-color: red; */
   border-radius: 50%;
   position: absolute;
   left: 98px;
   bottom: 134px;
+}
+.color_image_wrapper {
+  position: relative;
 }
 .nav .riview .image .color .color_2 .color_3 {
   width: 521px;
@@ -164,6 +170,11 @@ input {
   position: absolute;
   top: 710px;
   left: 376px;
+}
+.woman_image {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 /*star*/
 
