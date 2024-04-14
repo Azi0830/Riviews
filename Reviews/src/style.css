@@ -56,6 +56,9 @@ input {
   display: flex;
   gap: 34px;
   align-items: center;
+  position: absolute;
+  top: 30px;
+  left: 370px;
 }
 .nav .riview {
   width: 100%;
@@ -86,23 +89,19 @@ input {
   background-color: #263959;
   border-radius: 50%;
   position: absolute;
-  top: -286px;
-  right: -286px;
+  top: -450px;
+  right: -90px;
   position: relative;
 }
-.nav .riview .image .color img {
-  width: 397.71px;
-  height: 345.36px;
+.nav .riview .image .color .woman_image {
   position: absolute;
-  top: 12.64px;
-  /* left: 591.79px; */
-  gap: 0px;
-  opacity: 0px;
+  top: -170px;
+  left: 60px;
 }
 
 .nav .riview .image .color .color_2 {
-  width: 659px;
-  height: 659px;
+  width: 560px;
+  height: 560px;
   background: linear-gradient(
     228.6deg,
     rgba(65, 245, 192, 0.1) 12.9%,
@@ -111,15 +110,19 @@ input {
   /* background-color: red; */
   border-radius: 50%;
   position: absolute;
-  left: 98px;
+  left: 120px;
   bottom: 134px;
+  overflow: hidden;
 }
-.color_image_wrapper {
-  position: relative;
-}
+/* 
+.nav .riview .image .color .color_2 .color_3 img {
+  position: absolute;
+  bottom: -100;
+  left: 0;
+} */
 .nav .riview .image .color .color_2 .color_3 {
-  width: 521px;
-  height: 521px;
+  width: 450px;
+  height: 450px;
   background: linear-gradient(
     222.82deg,
     rgba(237, 231, 255, 0) 13.8%,
@@ -129,6 +132,33 @@ input {
   position: absolute;
   left: 0;
   bottom: 0;
+}
+
+.nav .riview .logo {
+  background: linear-gradient(180deg, #e3e3e3 0%, #dedede 100%);
+  width: 53.55px;
+  height: 53.55px;
+  border-radius: 12px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav .riview .face {
+  top: 227px;
+  left: 624px;
+}
+.nav .riview .ins {
+  top: 570px;
+  right: 450px;
+}
+.nav .riview .x {
+  top: 100px;
+  right: 400px;
+}
+.nav .riview .sng {
+  top: 220px;
+  right: 360px;
 }
 /*star*/
 .star_s_t {
@@ -171,11 +201,7 @@ input {
   top: 710px;
   left: 376px;
 }
-.woman_image {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
+
 /*star*/
 
 /*head end*/
