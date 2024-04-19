@@ -44,6 +44,9 @@ input {
   display: flex;
   position: relative;
 }
+.nav .top h3 {
+  cursor: pointer;
+}
 .nav .top .nav_left {
   flex: 2;
   display: flex;
@@ -62,9 +65,9 @@ input {
   position: absolute;
   top: 22px;
   left: 880px;
-  z-index: 1;
+  z-index: 2;
 }
-.nav .top .nav_right a {
+.nav .top .nav_right h3 {
   color: #fff;
 }
 .nav .riview {
@@ -100,10 +103,11 @@ input {
   right: -90px;
   position: relative;
 }
-.nav .riview .image .color .woman_image {
+.woman_image {
   position: absolute;
-  top: -170px;
+  top: 0px;
   left: 60px;
+  z-index: 1;
 }
 
 .nav .riview .image .color .color_2 {
@@ -134,7 +138,12 @@ input {
   left: 0;
   bottom: 0;
 }
-
+.follower_logo {
+  z-index: 1;
+  position: absolute;
+  right: 50px;
+  bottom: 90px;
+}
 .nav .riview .logo {
   background: linear-gradient(180deg, #e3e3e3 0%, #dedede 100%);
   width: 53.55px;
@@ -258,6 +267,15 @@ input {
   padding: 50px;
   background-color: #ffff;
   border-bottom: 5px solid #41f5c0;
+  /* border: 5px solid;
+
+  border-image-source: linear-gradient(
+    270deg,
+    rgba(65, 245, 192, 0.05) 0%,
+    #41f5c0 49.29%,
+    rgba(65, 245, 192, 0.05) 100%
+  ); */
+
   border-radius: 10px;
 }
 .features .talent_2 .talent .img {

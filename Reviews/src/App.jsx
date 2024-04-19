@@ -10,11 +10,11 @@ class App extends Component {
           <div className="top">
             <div className="nav_left">
               <img src="/Group 69.png" alt="" />
-              <a href="">Home</a>
-              <a href="">Features</a>
+              <h3 href="">Home</h3>
+              <h3 href="">Features</h3>
             </div>
             <div className="nav_right">
-              <a href="">Login</a>
+              <h3 href="">Login</h3>
               <input type="submit" value="Create Account" />
             </div>
           </div>
@@ -33,13 +33,17 @@ class App extends Component {
             <div className="image">
               <div className="color">
                 <div className="color_2">
-                  <div className="color_3">
-                    <img
-                      className="woman_image"
-                      src="https://s3-alpha-sig.figma.com/img/8b13/9b0b/ea29df4128e02ce6d8ee5b553b6f3cc2?Expires=1713139200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mtqIUh6Jr-O1EJAZXCXA1DlOGr4I~OydLno1xqJeT9IQN-T0XRikutRmK3utuyUh25bK-XxI8n6~8jA0F3jyoP5B5b7tw63MdY7HiAHTsAqvgzVPCP9l7TxACNEvrqvaQVeb8hSCQ3KHnvm9jyJZoEmCeRpH0dD1x7~ArOJiWC4Hfq5bT6UoTJacdUt53-0u0Op2H0j-XhcTeLtS8T2orzPPTjvNSDpy-mSSPtPBrssbnt4xCWdrFuoE0RE3YNTT6UhZwvbOyi0iFtuuGfn~GZKlb6leucmZPXPrUPfVFrjEojqQi6UYdL61VD1n5SRu0SJEU9CWqfejgqHEdI0cYA__"
-                      alt="women image"
-                    />
-                  </div>
+                  <img
+                    className="woman_image"
+                    src="https://s3-alpha-sig.figma.com/img/8b13/9b0b/ea29df4128e02ce6d8ee5b553b6f3cc2?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=qEU1Uy4o5tbctkfBG18n0cHj5bLC6hJwbLQ9q9JfzrKWdsR4G4vtIPmMhEiF4ajPt-f0O6oMhOEsP6mCp5WsX08ph4jNaOGVaGXWaak6DBZLN1UWXqOFXlZI~mihnNvQOZLY7X9MIzcfgiEh2D55wKqd6Kun~hgqpwiOr4ELicq0s7f9onFfP0xRvFBpFrRYzHtd9~AvJAPdn~0AjKVV8LfUSw39Bzi2Yai9ud0JPn089YFr7~5XePfBa8Ktx0vrOfXKS0dHUxKlXvCc0AkaHSCIm7sozHsSr1dPlSyUaKbVzNF~rPZh~VU8tWT0CKet99bINiGS1oyERRf6btxBwg__"
+                    alt="women image"
+                  />
+                  <div className="color_3"></div>
+                  <img
+                    className="follower_logo"
+                    src="Group 124.png"
+                    alt="follower logo"
+                  />
                 </div>
               </div>
               <div className="logo face">
