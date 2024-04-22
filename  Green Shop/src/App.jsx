@@ -1,37 +1,13 @@
-import { Button, Dropdown } from "antd";
-import { Wrapper, Middle, Right, Left } from "./style";
+import { Button, Carousel } from "antd";
+import { Wrapper, Middle } from "./style";
 import "./style.css";
 import {
   SearchOutlined,
   ShoppingCartOutlined,
   RightCircleOutlined,
-  ChromeOutlined,
 } from "@ant-design/icons";
 
 const App = () => {
-  const onMenuClick = (e) => {
-    console.log("click", e);
-  };
-  const items = [
-    {
-      key: "1",
-      label: "1st item",
-    },
-    {
-      key: "2",
-      label: "2nd item",
-    },
-    {
-      key: "3",
-      label: "3rd item",
-    },
-    (this.state = {
-      selec: null,
-    }),
-  ];
-  const onLeft = () => {
-    console.log("hello");
-  };
   return (
     <div>
       <Wrapper>
@@ -47,45 +23,82 @@ const App = () => {
         <Wrapper.Right>
           <SearchOutlined className="icon" />
           <ShoppingCartOutlined className="icon" />
-          <Dropdown.Button
-            menu={{
-              items,
-              onClick: onMenuClick,
-            }}
+          <Button
             icon={<RightCircleOutlined />}
             type="primary"
-            className="color"
+            className="button_color"
           >
             Login
-          </Dropdown.Button>
+          </Button>
         </Wrapper.Right>
       </Wrapper>
+      <Carousel>
+        <div>
+          <Middle>
+            <Middle.Left>
+              <div className="text">
+                <Middle.Left.P className="p_text">
+                  Welcome to GreenShop
+                </Middle.Left.P>
+                <Middle.Left.Heder1>
+                  Let's Make a Better <span className="planet">Planet</span>
+                </Middle.Left.Heder1>
+                <Middle.Left.P>
+                  We are an online plant shop offering a wide range of cheap and
+                  trendy plants. Use our plants to create an unique Urban
+                  Jungle. Order your favorite plants!
+                </Middle.Left.P>
 
-      <Middle>
-        <Middle.Left>
-          <Middle.Left.P>Welcome to GreenShop</Middle.Left.P>
-          <Middle.Left.Heder1>Let's Make a Better Planet</Middle.Left.Heder1>
-          <Middle.Left.P>
-            We are an online plant shop offering a wide range of cheap and
-            trendy plants. Use our plants to create an unique Urban Jungle.
-            Order your favorite plants!
-          </Middle.Left.P>
-        </Middle.Left>
-        <Middle.Right>
-          <img className="small_flower" src="01 2.png" alt="" />
-          <img className="big_flower" src="01 1.png" alt="" />
-        </Middle.Right>
-        <ChromeOutlined
-          onClick={() => {
-            onLeft();
-          }}
-          className="icon_button left"
-        />
-        <ChromeOutlined className="icon_button middle" />
-        <ChromeOutlined className="icon_button right" />
-      </Middle>
-      <Left className="left_div">left</Left>
-      <Right>right</Right>
+                <Button type="primary" className="button_color button">
+                  SHOP NOW
+                </Button>
+              </div>
+            </Middle.Left>
+            <Middle.Right>
+              <img className="small_flower" src="01 2.png" alt="" />
+              <img className="big_flower" src="01 1.png" alt="" />
+            </Middle.Right>
+          </Middle>
+        </div>
+        <div>
+          <Middle>
+            <Middle.Left>
+              <Middle.Left.P>Welcome to GreenShop</Middle.Left.P>
+              <Middle.Left.Heder1>
+                Let's Make a Better Planet
+              </Middle.Left.Heder1>
+              <Middle.Left.P>
+                We are an online plant shop offering a wide range of cheap and
+                trendy plants. Use our plants to create an unique Urban Jungle.
+                Order your favorite plants!
+              </Middle.Left.P>
+            </Middle.Left>
+            <Middle.Right>
+              <img className="small_flower" src="01 2.png" alt="" />
+              <img className="big_flower" src="01 1.png" alt="" />
+            </Middle.Right>
+          </Middle>
+        </div>
+        <div>
+          <Middle>
+            <Middle.Left>
+              <Middle.Left.P>Welcome to GreenShop</Middle.Left.P>
+              <Middle.Left.Heder1>
+                Let's Make a Better Planet
+              </Middle.Left.Heder1>
+              <Middle.Left.P>
+                We are an online plant shop offering a wide range of cheap and
+                trendy plants. Use our plants to create an unique Urban Jungle.
+                Order your favorite plants!
+              </Middle.Left.P>
+            </Middle.Left>
+            <Middle.Right>
+              <img className="small_flower" src="01 2.png" alt="" />
+              <img className="big_flower" src="01 1.png" alt="" />
+            </Middle.Right>
+          </Middle>
+        </div>
+      </Carousel>
     </div>
   );
 };

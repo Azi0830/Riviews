@@ -22,9 +22,7 @@ Wrapper.Middle = styled.div`
 Wrapper.Right = styled.div`
   display: flex;
   gap: 30px;
-  .color {
-    background-color: rgba(70, 163, 88, 1);
-  }
+
   .icon {
     font-size: 20px;
     cursor: pointer;
@@ -60,80 +58,51 @@ const Middle = styled.div`
   margin: auto;
   margin-top: 12px;
   display: flex;
-  position: relative;
   background: linear-gradient(
     97.77deg,
     rgba(245, 245, 245, 0.5) -23.46%,
     rgba(245, 245, 245, 0.5) 107.51%
   );
-
-  .left {
-    position: absolute;
-    bottom: 15px;
-    left: 48%;
-  }
-  .middle {
-    position: absolute;
-    bottom: 15px;
-    left: 50%;
-  }
-  .right {
-    position: absolute;
-    bottom: 15px;
-    left: 52%;
-  }
-  .right:hover {
-    background-color: red;
-  }
-  .icon_button {
-    border-radius: 50%;
-    background-color: black;
-    font-size: 10px;
-    cursor: pointer;
-  }
 `;
 Middle.Left = styled.div`
-  flex: 3;
+  flex: 4;
+  padding: 68px 43px;
+  .text {
+    width: 550px;
+    height: 250px;
+  }
+  .button {
+    margin-top: 44px;
+  }
+  .p_text {
+    text-transform: uppercase;
+  }
 `;
 Middle.Right = styled.div`
-  flex: 2;
+  flex: 3;
   position: relative;
-
   .big_flower {
     position: absolute;
-    /* background-color: bisque; */
     bottom: 0;
   }
   .small_flower {
     position: absolute;
-    bottom: 40px;
-    left: 45px;
+    bottom: 45px;
+    left: 30px;
   }
 `;
 Middle.Left.P = styled.p``;
-Middle.Left.Heder1 = styled.h1``;
+Middle.Left.Heder1 = styled.h1`
+  font-size: 70px;
+  font-weight: 900;
+  line-height: 70px;
+  text-align: left;
+  margin: 7px 0;
+  text-transform: uppercase;
 
-const Left = styled.div`
-  width: 80%;
-  height: 450px;
-  margin: auto;
-  margin-top: 12px;
-  display: flex;
-  background-color: red;
-  position: relative;
-  display: none;
-
-  .left_div {
-    display: block;
+  .planet {
+    color: rgba(70, 163, 88, 1);
   }
 `;
-const Right = styled.div`
-  width: 80%;
-  height: 450px;
-  margin: auto;
-  margin-top: 12px;
-  display: flex;
-  background-color: blue;
-  display: none;
-`;
-export { Wrapper, Middle, Left, Right };
+
+export { Wrapper, Middle };
