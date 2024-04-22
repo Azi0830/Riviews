@@ -1,11 +1,7 @@
 import React from "react";
 
-const Style = () => {
-  return (
-    <div>
-      <h1>hello</h1>{" "}
-    </div>
-  );
-};
+function Space() {
+  return <div></div>;
+}
 
-export default Style;
+export default Space;
