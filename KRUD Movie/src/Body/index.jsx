@@ -7,12 +7,8 @@ const Body = () => {
 
   return (
     <div className="flex flex-col items-center m-[40px]">
-      {movies.map((value) => (
-        <Card
-          key={value.id}
-          {...value}
-          //  title={value.title}
-        />
+      {movies.map((movie) => (
+        <Card key={movie.imdbid} {...movie} />
       ))}
     </div>
   );
